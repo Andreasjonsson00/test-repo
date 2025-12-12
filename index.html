@@ -7,17 +7,25 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header-container">
       <section class="cv-top-section">
-        <nav>
-          <a href="#experience">Experience</a>
-          <a href="#education">Education</a>
-        </nav>
-        <h1>Andreas Jonsson Roslund</h1>
-        <img class="profile-image" src="img/profile.jpeg" alt="Profile Image" />
+        <div class="header-item-1">
+          <nav>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+          </nav>
+        </div>
+        <div class="header-item-2">
+          <h1>Andreas Jonsson Roslund</h1>
+          <img
+            class="profile-image"
+            src="img/profile.jpeg"
+            alt="Profile Image"
+          />
+        </div>
       </section>
 
-      <section class="cv-section">
+      <section class="cv-section header-item-3">
         <h2>About Me</h2>
         Hello! I'm Andreas Jonsson Roslund, a passionate web developer with a
         love for creating dynamic and user-friendly websites. I'm currently
@@ -27,8 +35,8 @@
       </section>
     </header>
 
-    <main>
-      <section class="cv-section" id="experience">
+    <main class="container">
+      <section class="cv-section item-1" id="experience">
         <h2>Experience</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab error,
@@ -46,7 +54,7 @@
         </p>
       </section>
 
-      <section class="cv-section" id="education">
+      <section class="cv-section item-2" id="education">
         <h2>Education</h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
@@ -75,17 +83,16 @@
           <li>JavaScript</li>
         </ul>
       </section>
-
-      <div class="linkedin-link">
+    </main>
+    <footer class="footer-container">
+      <p>&copy; 2025 Andreas Jonsson Roslund</p>
+      <div class="linkedin-link footer-item-1">
         <a
           href="https://www.linkedin.com/in/andreas-jonsson-roslund-65b2b139a"
           target="_blank"
           >LinkedIn profile</a
         >
       </div>
-    </main>
-    <footer>
-      <p>&copy; 2025 Andreas Jonsson Roslund</p>
     </footer>
   </body>
 </html>
