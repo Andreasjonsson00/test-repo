@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(211, 211, 211, 0.358);
+  background-color: rgba(211, 211, 211, 0.769);
 }
 
 .cv-top-section {
@@ -16,9 +16,9 @@ body {
 }
 
 .profile-image {
-  width: 250px;
+  width: 150px;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid black;;
 }
 
 a:hover {
