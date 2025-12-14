@@ -49,6 +49,11 @@ nav {
   justify-content: center;
 }
 
+.skills-container {
+  display: flex;
+  gap: 10px;
+}
+
 /* My Projects Section */
 
 .item-2 {
