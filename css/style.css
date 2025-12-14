@@ -1,5 +1,6 @@
 body {
-  background-color: rgba(211, 211, 211, 0.769);
+  background-color: #f2f2f2;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .cv-top-section {
@@ -9,33 +10,26 @@ body {
   text-align: center;
 }
 .cv-section {
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  padding: 16px;
   max-width: 600px;
   margin: 20px auto;
-  background-color: rgba(255, 255, 255, 0.508);
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .profile-image {
   width: 150px;
   border-radius: 50%;
-  border: 2px solid black;;
-}
-
-a:hover {
-  color: blue;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 footer {
   text-align: center;
 }
 
-.linkedin-link {
-  text-align: center;
-}
-
-/* Flex container for main sections */
 .container {
   display: flex;
   flex-direction: column;
@@ -53,6 +47,58 @@ footer {
 
 nav {
   display: flex;
-  gap: 15px;
+  gap: 35px;
   justify-content: center;
+}
+
+
+/*  Social Links Styles & Images  */
+.github-link {
+  display: flex;
+  gap: 4px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.github-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.linkedin-link {
+  display: flex;
+  gap: 4px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkedin-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.email-link {
+  display: flex;
+  gap: 4px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.email-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/*  Hover-effect for Links  */
+.github-link,
+.linkedin-link,
+.email-link {
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.github-link:hover,
+.linkedin-link:hover,
+.email-link:hover {
+  color: #000;
+  transform: translateY(-2px);
 }
