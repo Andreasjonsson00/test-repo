@@ -1,6 +1,7 @@
 body {
   background-color: #f2f2f2;
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
 }
 
 .cv-top-section {
@@ -26,10 +27,6 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-footer {
-  text-align: center;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -43,6 +40,7 @@ footer {
 .footer-container {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 nav {
@@ -51,6 +49,27 @@ nav {
   justify-content: center;
 }
 
+/* My Projects Section */
+
+.item-2 {
+  max-width: 1000px;
+}
+
+.projects-row {
+  display: flex;
+  gap: 20px;
+}
+
+.project-image {
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-image:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
 
 /*  Social Links Styles & Images  */
 .github-link {
